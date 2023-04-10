@@ -1,0 +1,46 @@
+<?php acf_add_local_field_group(array(
+	'key' => 'group_64247f42518da',
+	'title' => 'Royal Media',
+	'fields' => array(
+		array(
+			'key' => 'field_64247f4398e6c',
+			'label' => '“New” Duration',
+			'name' => 'new_duration',
+			'aria-label' => '',
+			'type' => 'number',
+			'instructions' => 'How many days will a page still be considered new from its “Updated” date',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => 7,
+			'min' => '',
+			'max' => '',
+			'placeholder' => '',
+			'step' => '',
+			'prepend' => '',
+			'append' => '',
+		),
+	),
+	'location' => array(
+		array(
+			array(
+				'param' => 'options_page',
+				'operator' => '==',
+				'value' => 'royal-media',
+			),
+		),
+	),
+	'menu_order' => 0,
+	'position' => 'normal',
+	'style' => 'default',
+	'label_placement' => 'top',
+	'instruction_placement' => 'label',
+	'hide_on_screen' => '',
+	'active' => true,
+	'description' => '',
+	'show_in_rest' => 1,
+));
